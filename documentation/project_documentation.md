@@ -92,7 +92,7 @@ def do_regression(ticker1, ticker2):
 
 
 <p align="center">
-  <img src="pics/coint_stock_spread_example.png" alt="Portfolio Curve" width="800"/>
+  <img src="../pics/coint_stock_spread_example.png" alt="Portfolio Curve" width="800"/>
 </p>
 
 
@@ -129,12 +129,12 @@ For each pair, we calculate:
 
 
 <p align="center">
-  <img src="pics/elbow.png" alt="Portfolio Curve" width="800"/>
+  <img src="../pics/elbow.png" alt="Portfolio Curve" width="800"/>
 </p>
 
 
 <p align="center">
-  <img src="pics/3d_pair_clusters.png" alt="Portfolio Curve" width="800"/>
+  <img src="../pics/3d_pair_clusters.png" alt="Portfolio Curve" width="800"/>
 </p>
 
 
@@ -197,11 +197,11 @@ def run_backtest(trading_df, pair_info, lookback, entry, stop_loss, exit_thresho
 3.  **Parameter Sensitivity Heatmap:** Visualize the grid search results as a heatmap. This shows how the Sharpe Ratio changes across different lookback periods and entry thresholds. A large, contiguous profitable region (green area) indicates a robust strategy that is not dependent on a single, fragile parameter set.
 
 <p align="center">
-  <img src="pics/portfolio_curve.png" alt="Portfolio Curve" width="800"/>
+  <img src="../pics/portfolio_curve.png" alt="Portfolio Curve" width="800"/>
 </p>
 
 <p align="center">
-  <img src="pics/sharpe_heatmap.png" alt="Sharpe Ratio Heatmap" width="800"/>
+  <img src="../pics/sharpe_heatmap.png" alt="Sharpe Ratio Heatmap" width="800"/>
 </p>
 
 ---
